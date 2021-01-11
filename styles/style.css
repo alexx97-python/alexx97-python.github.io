@@ -305,10 +305,41 @@ nav ul {
   margin: 5rem;
 }
 
-.travelly, .elena-joy {
+.travelly,
+.elena-joy,
+.todo-list,
+.calculator,
+.avia-simulator,
+.render-goods-table,
+.usa-election-table {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
+  margin-bottom: 20px;
+}
+
+.travelly .project-link,
+.elena-joy .project-link,
+.todo-list .project-link,
+.calculator .project-link,
+.avia-simulator .project-link,
+.render-goods-table .project-link,
+.usa-election-table .project-link {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+}
+
+.travelly img,
+.elena-joy img,
+.todo-list img,
+.calculator img,
+.avia-simulator img,
+.render-goods-table img,
+.usa-election-table img {
+  width: 622px;
+  height: 486px;
+  border-radius: 5%;
 }
 
 .form-section {
